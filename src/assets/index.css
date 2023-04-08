@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  outline: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #404040 !important;
+}
+
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.input-w-80 {
+  width: 80%;
+}
+
+#TodoApp {
+  margin: auto;
+  background-color: #383838;
+  box-shadow: 0 0 10px 5px #333;
+  width: 600px;
+  min-height: 600px;
+}
+
+#TodoApp h2 {
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+#Form {
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+
+
+
+#listItem {
+  background-color: #fff;
+}
+
+.DeleteBtn:focus {
+  background-color: red !important;
+}
